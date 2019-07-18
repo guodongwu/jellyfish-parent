@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jellyfish-web" charset="UTF-8" />
+  </component>
+</project>

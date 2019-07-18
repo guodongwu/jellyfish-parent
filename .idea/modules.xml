@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-common/jellyfish-common.iml" filepath="$PROJECT_DIR$/jellyfish-common/jellyfish-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-config/jellyfish-config.iml" filepath="$PROJECT_DIR$/jellyfish-config/jellyfish-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-core/jellyfish-core.iml" filepath="$PROJECT_DIR$/jellyfish-core/jellyfish-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-data/jellyfish-data.iml" filepath="$PROJECT_DIR$/jellyfish-data/jellyfish-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-entity/jellyfish-entity.iml" filepath="$PROJECT_DIR$/jellyfish-entity/jellyfish-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-parent.iml" filepath="$PROJECT_DIR$/jellyfish-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-service/jellyfish-service.iml" filepath="$PROJECT_DIR$/jellyfish-service/jellyfish-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellyfish-web/jellyfish-web.iml" filepath="$PROJECT_DIR$/jellyfish-web/jellyfish-web.iml" />
+    </modules>
+  </component>
+</project>

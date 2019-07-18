@@ -1,0 +1,9 @@
+outputDir: D:\demo\src\main\java
+outputXmlDir: D:\demo\src\main\resource
+tableNames:
+  - ETSUSER
+parent: com.jellyfish
+url: jdbc:mysql://192.168.83.128:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+username: root
+password: 123456
+driver: com.mysql.jdbc.Driver
