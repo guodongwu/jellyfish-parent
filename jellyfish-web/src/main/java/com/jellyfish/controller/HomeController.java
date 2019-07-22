@@ -1,8 +1,6 @@
 package com.jellyfish.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.jellyfish.common.FastDfsClient;
 import com.jellyfish.common.JsonResult;
 import com.jellyfish.entity.Etsuser;
@@ -10,16 +8,16 @@ import com.jellyfish.entity.User;
 import com.jellyfish.enums.ResultCode;
 import com.jellyfish.service.IEtsuserService;
 import com.jellyfish.service.ISequenceService;
-import com.jellyfish.service.impl.EtsuserServiceImpl;
 import com.jellyfish.utils.RedisUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -27,7 +25,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Wrapper;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -111,5 +108,18 @@ public class HomeController {
     public String upload(MultipartFile file, HttpServletRequest request, HttpServletResponse response) throws Exception {
         String fileUrl = fastDfsClient.upload(file);
         return fileUrl;
+    }
+
+    @Value("${server.port}")
+    String port;
+    @RequestMapping("/session/{id}")
+    public String session(@PathVariable("id") String id, HttpServletRequest request){
+        if(request.getSession().getAttribute("userSession"+id)!=null){
+            String session=request.getSession().getAttribute("userSession"+id).toString();
+            return "当前获取session:"+session+port;
+        }else {
+            request.getSession().setAttribute("userSession" + id, id);
+        }
+        return "当前设置session:"+"userSession"+id+",port:"+port;
     }
 }

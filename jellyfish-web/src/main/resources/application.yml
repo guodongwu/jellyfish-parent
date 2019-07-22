@@ -9,9 +9,11 @@ server:
 # @PropertySource注解只支持properties文件
 spring:
   profiles:
-    active: activemq,rsingle,oracle,mysql,mybatis,fdfs
+    active: activemq,rcluster,oracle,mysql,mybatis,fdfs
   servlet:
     multipart:
       enabled: true
       max-file-size: 50MB
       max-request-size: 50MB
+  session:
+    store-type: redis

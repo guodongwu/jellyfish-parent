@@ -27,25 +27,25 @@ public class ActiveMQConfig {
     @Value("${spring.activemq.password}")
     private String password;
     @Bean
-    public ActiveMQConnectionFactory connectionFactory() {
+    public ActiveMQConnectionFactory activeMQConnectionFactory() {
         return  new ActiveMQConnectionFactory(user,password,broker_url);
     }
     @Bean
-    public JmsListenerContainerFactory<?> jmsListenerContainerTopic(ActiveMQConnectionFactory connectionFactory){
+    public JmsListenerContainerFactory<?> jmsListenerContainerTopic(ActiveMQConnectionFactory activeMQConnectionFactory){
         DefaultJmsListenerContainerFactory factory=new DefaultJmsListenerContainerFactory();
         factory.setPubSubDomain(true);
-        factory.setConnectionFactory(connectionFactory);
+        factory.setConnectionFactory(activeMQConnectionFactory);
         return factory;
     }
     @Bean
-    public JmsListenerContainerFactory<?> jmsListenerContainerQueue(ActiveMQConnectionFactory connectionFactory){
+    public JmsListenerContainerFactory<?> jmsListenerContainerQueue(ActiveMQConnectionFactory activeMQConnectionFactory){
         DefaultJmsListenerContainerFactory factory=new DefaultJmsListenerContainerFactory();
-        factory.setConnectionFactory(connectionFactory);
+        factory.setConnectionFactory(activeMQConnectionFactory);
         return factory;
     }
     @Bean
-    public JmsMessagingTemplate jmsMessagingTemplate(ActiveMQConnectionFactory connectionFactory){
-        return new JmsMessagingTemplate(connectionFactory);
+    public JmsMessagingTemplate jmsMessagingTemplate(ActiveMQConnectionFactory activeMQConnectionFactory){
+        return new JmsMessagingTemplate(activeMQConnectionFactory);
     }
     @Bean
     public Queue queue(){
