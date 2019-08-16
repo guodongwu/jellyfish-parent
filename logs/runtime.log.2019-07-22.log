@@ -1,0 +1,189 @@
+2019-07-22 10:47:43.900 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 12368 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 10:47:43.900 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 12368 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 10:47:43.906 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 10:47:43.906 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 10:47:43.907 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 10:47:43.907 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 10:47:45.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 10:47:45.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 10:47:45.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2019-07-22 10:47:45.531 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36f544af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 10:47:46.095 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-22 10:47:46.109 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-22 10:47:46.119 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-22 10:47:46.119 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 10:47:46.380 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-07-22 10:47:46.381 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2401 ms
+2019-07-22 10:47:46.992 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-07-22 10:47:47.414 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-22 10:47:48.145 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-07-22 10:47:48.921 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-07-22 10:47:48.923 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-07-22 10:47:50.507 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 10:47:51.904 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-22 10:47:52.080 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-22 10:47:52.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-07-22 10:47:52.108 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.276 seconds (JVM running for 11.768)
+2019-07-22 10:47:52.108 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.276 seconds (JVM running for 11.768)
+2019-07-22 10:48:26.250 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 10:48:26.252 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-07-22 10:48:26.253 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-07-22 10:48:26.403 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-07-22 10:48:26.403 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-07-22 10:48:26.412 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-22 11:55:27.885 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 5204 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 11:55:27.885 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 5204 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 11:55:27.893 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 11:55:27.893 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 11:55:27.895 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rsingle,oracle,mysql,mybatis,fdfs
+2019-07-22 11:55:27.895 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rsingle,oracle,mysql,mybatis,fdfs
+2019-07-22 11:55:29.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 11:55:29.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 11:55:29.639 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-07-22 11:55:30.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$793f272c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 11:55:31.000 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-22 11:55:31.026 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-22 11:55:31.039 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-22 11:55:31.040 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 11:55:31.382 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-07-22 11:55:31.383 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3326 ms
+2019-07-22 11:55:32.390 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-07-22 11:55:32.940 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-22 11:55:33.634 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-07-22 11:55:34.464 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-07-22 11:55:34.466 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-07-22 11:55:35.976 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 11:55:37.295 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-22 11:55:37.307 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-22 11:55:37.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-07-22 11:55:37.485 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 11.063 seconds (JVM running for 13.836)
+2019-07-22 11:55:37.485 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 11.063 seconds (JVM running for 13.836)
+2019-07-22 11:56:00.296 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 11:56:00.296 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 11:56:00.309 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-07-22 11:56:54.773 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 11:56:54.775 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-07-22 11:56:54.776 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-07-22 11:56:54.814 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-07-22 11:56:54.815 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-07-22 11:56:54.822 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-22 11:57:01.632 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 1064 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 11:57:01.632 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 1064 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 11:57:01.635 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 11:57:01.635 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 11:57:01.635 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 11:57:01.635 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 11:57:02.595 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 11:57:02.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 11:57:02.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-07-22 11:57:03.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$760bddc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 11:57:03.631 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-22 11:57:03.646 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-22 11:57:03.655 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-22 11:57:03.656 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 11:57:03.890 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-07-22 11:57:03.890 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2192 ms
+2019-07-22 11:57:04.494 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-07-22 11:57:04.899 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-22 11:57:05.400 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-07-22 11:57:06.315 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-07-22 11:57:06.318 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-07-22 11:57:07.694 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 11:57:09.026 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-22 11:57:09.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-22 11:57:09.233 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-07-22 11:57:09.236 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.575 seconds (JVM running for 10.698)
+2019-07-22 11:57:09.236 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.575 seconds (JVM running for 10.698)
+2019-07-22 11:57:37.312 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 11:57:37.312 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 11:57:37.323 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-22 13:34:34.738 [Thread-22] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 13:34:34.739 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-07-22 13:34:34.740 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-07-22 13:34:34.800 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-07-22 13:34:34.801 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-07-22 13:34:34.810 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-22 13:34:53.292 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 16508 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 13:34:53.292 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 16508 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 13:34:53.297 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 13:34:53.297 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 13:34:53.297 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 13:34:53.297 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-07-22 13:34:54.798 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 13:34:54.803 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 13:34:54.859 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2019-07-22 13:34:55.559 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9d3e633] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 13:34:56.301 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-22 13:34:56.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-22 13:34:56.441 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-22 13:34:56.442 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 13:34:56.942 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-07-22 13:34:56.942 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3576 ms
+2019-07-22 13:34:57.475 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-07-22 13:34:57.845 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-07-22 13:34:58.311 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-22 13:34:58.968 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-07-22 13:34:59.735 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-07-22 13:34:59.738 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-07-22 13:35:01.657 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 13:35:03.069 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-22 13:35:03.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-22 13:35:03.114 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-07-22 13:35:03.120 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 11.059 seconds (JVM running for 13.557)
+2019-07-22 13:35:03.120 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 11.059 seconds (JVM running for 13.557)
+2019-07-22 13:35:27.646 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 13:35:27.647 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 13:35:27.657 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-22 13:36:10.211 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 13:36:10.213 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-07-22 13:36:10.214 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-07-22 13:36:10.250 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-07-22 13:36:10.250 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-07-22 13:36:10.260 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-22 13:36:10.263 [Thread-28] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-07-22 13:36:11.387 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-07-22 13:36:11.390 [Thread-28] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@268842fc was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-07-22 13:36:18.771 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 11332 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 13:36:18.771 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 11332 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-07-22 13:36:18.777 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 13:36:18.777 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-22 13:36:18.777 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rsingle,oracle,mysql,mybatis,fdfs
+2019-07-22 13:36:18.777 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rsingle,oracle,mysql,mybatis,fdfs
+2019-07-22 13:36:20.111 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 13:36:20.114 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 13:36:20.164 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-07-22 13:36:20.599 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22fec602] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 13:36:21.163 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-22 13:36:21.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-22 13:36:21.188 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-22 13:36:21.188 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 13:36:21.444 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-07-22 13:36:21.444 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2535 ms
+2019-07-22 13:36:22.136 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-07-22 13:36:22.456 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-22 13:36:22.944 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-07-22 13:36:23.601 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-07-22 13:36:23.603 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-07-22 13:36:25.029 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 13:36:26.498 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-07-22 13:36:26.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-22 13:36:26.529 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-07-22 13:36:26.532 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.925 seconds (JVM running for 11.199)
+2019-07-22 13:36:26.532 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.925 seconds (JVM running for 11.199)
+2019-07-22 13:36:29.872 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 13:36:29.872 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 13:36:29.883 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms

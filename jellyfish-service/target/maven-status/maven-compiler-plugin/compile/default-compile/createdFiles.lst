@@ -1,0 +1,4 @@
+com\jellyfish\service\impl\EtsuserServiceImpl.class
+com\jellyfish\service\ISequenceService.class
+com\jellyfish\service\IEtsuserService.class
+com\jellyfish\service\impl\SequenceServiceImpl.class

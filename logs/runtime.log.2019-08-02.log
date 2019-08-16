@@ -1,0 +1,357 @@
+2019-08-02 13:32:25.840 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 1108 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 13:32:25.840 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 1108 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 13:32:25.846 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 13:32:25.846 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 13:32:25.846 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 13:32:25.846 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 13:32:27.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 13:32:27.160 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 13:32:27.224 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2019-08-02 13:32:28.261 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae562c15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 13:32:28.863 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 13:32:28.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 13:32:28.896 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 13:32:28.896 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 13:32:29.117 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 13:32:29.118 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3194 ms
+2019-08-02 13:32:29.486 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 13:32:29.818 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 13:32:30.176 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 13:32:30.853 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 13:32:31.677 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 13:32:31.679 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 13:32:33.307 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 13:32:35.151 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 13:32:35.161 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 13:32:35.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 13:32:35.191 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 10.855 seconds (JVM running for 12.621)
+2019-08-02 13:32:35.191 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 10.855 seconds (JVM running for 12.621)
+2019-08-02 13:35:42.629 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 13:35:42.633 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 13:35:42.638 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 13:35:42.717 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 13:35:42.718 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 13:35:42.734 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 13:35:42.740 [Thread-28] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 13:35:43.888 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 13:35:43.892 [Thread-28] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@49ba56f4 was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 14:04:36.493 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 3116 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:04:36.493 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 3116 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:04:36.497 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:04:36.497 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:04:36.502 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:04:36.502 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:04:37.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 14:04:37.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 14:04:37.920 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-08-02 14:04:38.677 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42fe700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 14:04:39.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:04:39.121 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:04:39.132 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:04:39.132 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 14:04:39.328 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:04:39.328 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2716 ms
+2019-08-02 14:04:39.672 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 14:04:39.972 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 14:04:40.289 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 14:04:40.786 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 14:04:41.432 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 14:04:41.434 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 14:04:42.928 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:04:44.615 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 14:04:44.628 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:04:44.654 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 14:04:44.658 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.512 seconds (JVM running for 11.53)
+2019-08-02 14:04:44.658 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.512 seconds (JVM running for 11.53)
+2019-08-02 14:08:12.081 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:08:12.084 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 14:08:12.085 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 14:08:12.145 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 14:08:12.146 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 14:08:12.156 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 14:08:12.160 [Thread-24] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 14:08:12.301 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 14:08:12.306 [Thread-24] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@37704e4d was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 14:08:32.426 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 21212 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:08:32.426 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 21212 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:08:32.436 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:08:32.436 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:08:32.440 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:08:32.440 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:08:33.715 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 14:08:33.719 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 14:08:33.770 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-08-02 14:08:34.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18f50032] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 14:08:34.791 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:08:34.806 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:08:34.816 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:08:34.816 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 14:08:35.005 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:08:35.006 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2455 ms
+2019-08-02 14:08:35.359 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 14:08:35.723 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 14:08:36.090 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 14:08:36.682 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 14:08:37.448 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 14:08:37.451 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 14:08:39.122 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:08:40.499 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 14:08:40.506 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:08:40.523 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 14:08:40.525 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.463 seconds (JVM running for 11.537)
+2019-08-02 14:08:40.525 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.463 seconds (JVM running for 11.537)
+2019-08-02 14:09:25.129 [Thread-22] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:09:25.131 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 14:09:25.132 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 14:09:25.212 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 14:09:25.212 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 14:09:25.225 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 14:09:25.230 [Thread-22] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 14:09:26.351 [Thread-22] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 14:09:26.354 [Thread-22] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@60da6066 was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 14:09:35.790 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 19848 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:09:35.790 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 19848 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 14:09:35.798 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:09:35.798 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 14:09:35.799 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:09:35.799 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 14:09:37.029 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 14:09:37.033 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 14:09:37.083 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-08-02 14:09:37.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2add1e28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 14:09:38.100 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:09:38.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:09:38.131 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:09:38.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 14:09:38.320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:09:38.320 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2437 ms
+2019-08-02 14:09:38.635 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 14:09:38.921 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 14:09:39.240 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 14:09:39.730 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 14:09:40.424 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 14:09:40.426 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 14:09:41.972 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:09:43.623 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 14:09:43.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:09:43.663 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 14:09:43.668 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.159 seconds (JVM running for 11.731)
+2019-08-02 14:09:43.668 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.159 seconds (JVM running for 11.731)
+2019-08-02 14:09:48.757 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:09:48.759 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 14:09:48.760 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 14:09:48.801 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 14:09:48.802 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 14:09:48.809 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 14:09:48.813 [Thread-24] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 14:09:49.926 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 14:09:49.928 [Thread-24] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@4176d253 was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 16:35:25.836 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 33324 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:35:25.836 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 33324 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:35:25.847 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:35:25.847 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:35:25.848 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:35:25.848 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:35:27.132 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 16:35:27.135 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 16:35:27.177 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-08-02 16:35:27.775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a340c860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 16:35:28.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 16:35:28.209 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:35:28.219 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 16:35:28.220 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 16:35:28.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 16:35:28.419 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2463 ms
+2019-08-02 16:35:28.767 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 16:35:29.069 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 16:35:29.384 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 16:35:29.853 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 16:35:30.504 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 16:35:30.506 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 16:35:32.013 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:35:33.509 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 16:35:33.518 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:35:33.537 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 16:35:33.541 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.862 seconds (JVM running for 11.088)
+2019-08-02 16:35:33.541 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.862 seconds (JVM running for 11.088)
+2019-08-02 16:36:01.661 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:36:01.663 [Thread-23] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 16:36:01.664 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 16:36:01.701 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 16:36:01.702 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 16:36:01.714 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 16:36:01.718 [Thread-23] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 16:36:02.845 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 16:36:02.847 [Thread-23] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@63dd03f9 was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 16:36:35.174 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 17828 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:36:35.174 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 17828 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:36:35.178 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:36:35.178 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:36:35.178 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:36:35.178 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:36:36.296 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 16:36:36.299 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 16:36:36.344 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-08-02 16:36:36.977 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25f52303] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 16:36:37.464 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 16:36:37.481 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:36:37.492 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 16:36:37.492 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 16:36:37.712 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 16:36:37.712 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2455 ms
+2019-08-02 16:36:38.076 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 16:36:38.428 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 16:36:38.750 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 16:36:39.214 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 16:36:39.865 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 16:36:39.867 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 16:36:41.348 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:36:42.854 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 16:36:42.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:36:42.886 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 16:36:42.890 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.928 seconds (JVM running for 11.156)
+2019-08-02 16:36:42.890 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 8.928 seconds (JVM running for 11.156)
+2019-08-02 16:37:01.024 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:37:01.025 [Thread-23] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 16:37:01.027 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 16:37:01.105 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 16:37:01.106 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 16:37:01.127 [Thread-23] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 16:37:01.131 [Thread-23] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 16:37:02.255 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 16:37:02.261 [Thread-23] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@1733ba9a was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-08-02 16:37:13.230 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 21432 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:37:13.230 [main] INFO  com.jellyfish.JellyfishApplication - Starting JellyfishApplication on LAPTOP-G38SNEGP with PID 21432 (D:\IdeaProjects\jellyfish-parent\jellyfish-web\target\classes started by RYX in D:\IdeaProjects\jellyfish-parent)
+2019-08-02 16:37:13.237 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:37:13.237 [main] DEBUG com.jellyfish.JellyfishApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 16:37:13.237 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:37:13.237 [main] INFO  com.jellyfish.JellyfishApplication - The following profiles are active: activemq,rcluster,oracle,mysql,mybatis,fdfs
+2019-08-02 16:37:14.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-02 16:37:14.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-02 16:37:14.743 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-08-02 16:37:15.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a8e9807] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-02 16:37:15.769 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 16:37:15.785 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:37:15.796 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 16:37:15.797 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-02 16:37:15.993 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jellyfish] - Initializing Spring embedded WebApplicationContext
+2019-08-02 16:37:15.993 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2667 ms
+2019-08-02 16:37:16.330 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2019-08-02 16:37:16.650 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-08-02 16:37:16.971 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-02 16:37:17.447 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-02 16:37:18.105 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-02 16:37:18.107 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-02 16:37:19.582 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:37:21.146 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-02 16:37:21.159 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 16:37:21.181 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/jellyfish'
+2019-08-02 16:37:21.185 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.241 seconds (JVM running for 11.469)
+2019-08-02 16:37:21.185 [main] INFO  com.jellyfish.JellyfishApplication - Started JellyfishApplication in 9.241 seconds (JVM running for 11.469)
+2019-08-02 16:37:48.327 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 16:37:48.329 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2019-08-02 16:37:48.330 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2019-08-02 16:37:48.383 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-02 16:37:48.384 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-08-02 16:37:48.395 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-02 16:37:48.398 [Thread-24] WARN  o.s.d.r.c.lettuce.LettucePoolingConnectionProvider - LettucePoolingConnectionProvider contains unreleased connections
+2019-08-02 16:37:48.532 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2019-08-02 16:37:48.536 [Thread-24] WARN  o.s.d.r.c.lettuce.LettuceConnectionFactory - Cannot properly close cluster command executor
+org.springframework.data.redis.connection.PoolException: Returned connection io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl@6e4c624a was either previously returned or does not belong to this connection provider
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.release(LettucePoolingConnectionProvider.java:116)
+	at org.springframework.data.redis.connection.lettuce.LettuceClusterConnection$LettuceClusterNodeResourceProvider.destroy(LettuceClusterConnection.java:708)
+	at org.springframework.data.redis.connection.ClusterCommandExecutor.destroy(ClusterCommandExecutor.java:361)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.destroy(LettuceConnectionFactory.java:319)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)

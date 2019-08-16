@@ -13,6 +13,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -78,6 +80,18 @@ public class HomeController {
         result.setData(list);
         return  result;
     }
+
+    @RequestMapping("/cache/{id}")
+    @Cacheable(value = "Etsuser",key = "#id")
+    public JsonResult cache(@PathVariable("id") String id){
+        Etsuser etsuser=new Etsuser();
+        etsuser.setName("老");
+        etsuser.setId(5);
+        List<Etsuser> list=etsuserService.list(etsuser);
+        JsonResult result=new JsonResult(ResultCode.SUCCESS);
+        result.setData(list);
+        return  result;
+    }
     @RequestMapping("/jdbc")
     public JsonResult jdbc(){
        List list=mysqlJdbcTemplate.query("select * from etsuser", new RowMapper<Etsuser>() {
@@ -103,8 +117,9 @@ public class HomeController {
         map.put("oracle",list2);
         return  new JsonResult(ResultCode.SUCCESS,map);
     }
-    // 上传文件
-    @PostMapping(value = "/upload")
+
+    @Cacheable()
+    @PostMapping("/upload")
     public String upload(MultipartFile file, HttpServletRequest request, HttpServletResponse response) throws Exception {
         String fileUrl = fastDfsClient.upload(file);
         return fileUrl;

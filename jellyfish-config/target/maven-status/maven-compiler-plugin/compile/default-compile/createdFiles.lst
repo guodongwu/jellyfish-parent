@@ -1,0 +1,10 @@
+com\jellyfish\config\DruidConfig.class
+com\jellyfish\annotation\DynamicSource.class
+com\jellyfish\aspect\DataSourceAspect.class
+com\jellyfish\config\ActiveMQConfig.class
+com\jellyfish\config\FastDfsConfig.class
+com\jellyfish\ds\DynamicDataSource.class
+META-INF\spring-configuration-metadata.json
+com\jellyfish\ds\DataSourceContextHolder.class
+com\jellyfish\config\DataSourceConfig.class
+com\jellyfish\config\RedisConfig.class

@@ -1,0 +1,6 @@
+com\jellyfish\common\ActiveMQProducer.class
+com\jellyfish\common\Test.class
+com\jellyfish\common\FastDfsClient.class
+com\jellyfish\common\JsonResult.class
+com\jellyfish\enums\ResultCode.class
+com\jellyfish\utils\RedisUtils.class
