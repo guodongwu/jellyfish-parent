@@ -1,3 +1,9 @@
+/*
+ * @Author: tianyu 
+ * @Date: 2019-08-20 10:07:17 
+ * @Last Modified by:   tianyu 
+ * @Last Modified time: 2019-08-20 10:07:17 
+ */
 package com.jellyfish.common;
 
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
@@ -14,7 +20,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.charset.Charset;
 
 /**

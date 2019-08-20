@@ -1,3 +1,10 @@
+/*
+ * @Author: tianyu 
+ * @Date: 2019-08-20 10:07:11 
+ * @Last Modified by:   tianyu 
+ * @Last Modified time: 2019-08-20 10:07:11 
+ */
+
 package com.jellyfish.common;
 
 
@@ -7,7 +14,8 @@ import java.io.Serializable;
 
 public class JsonResult implements Serializable {
 
-    private String status;
+    private static final long serialVersionUID = 1L;
+	private String status;
     private Object data;
     private String message;
     public JsonResult() {
